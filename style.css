@@ -1,8 +1,9 @@
 .card-item {
   background-color: blue;
-  height: 500px;
+  height: 470px;
   width: 600px;
   border-radius: 15px;
+  margin: 70px;
 }
 
 .logo-row {
@@ -22,11 +23,27 @@
   justify-content: space-between;
 }
 
+.chip-debit {
+  display: flex;
+  column-gap: 30px;
+}
+
 .chip {
   height: 70px;
   width: 90px;
   background-color: goldenrod;
   border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  flex-wrap: wrap;
+}
+
+.grid {
+  height: 70px;
+  width: 2px;
+  background-color: rgb(16, 10, 10);
+  margin: 10px;
 }
 
 .account-number {
@@ -43,9 +60,54 @@
   column-gap: 200px;
 }
 
+.right {
+  display: flex;
+  column-gap: 10px;
+}
+
 .last-part {
   margin: 30px;
   display: flex;
   justify-content: space-between;
   color: gold;
 }
+
+.date {
+  display: flex;
+  flex-direction: column;
+}
+
+.visa-part {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  font-size: xx-large;
+  margin-top: 10px;
+}
+
+/* @media (max-width: 768px) {
+  .card-item {
+    width: 400px;
+    height: 400px;
+  }
+
+  .chip-network {
+    margin: 10px;
+  }
+
+  .chip {
+    height: 50px;
+    width: 70px;
+  }
+
+  .account-number {
+    font-size: small;
+  }
+
+  .membership {
+    margin: 10px;
+  }
+
+  .last-part {
+    margin: 10px;
+  }
+} */
