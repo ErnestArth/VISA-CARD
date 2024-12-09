@@ -1,0 +1,51 @@
+.card-item {
+  background-color: blue;
+  height: 500px;
+  width: 600px;
+  border-radius: 15px;
+}
+
+.logo-row {
+  margin: 10px;
+  padding: 10px;
+  font-size: large;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.chip-network {
+  color: white;
+  margin: 30px;
+  display: flex;
+  column-gap: 20px;
+  justify-content: space-between;
+}
+
+.chip {
+  height: 70px;
+  width: 90px;
+  background-color: goldenrod;
+  border-radius: 10px;
+}
+
+.account-number {
+  color: antiquewhite;
+  display: flex;
+  justify-content: center;
+}
+
+.membership {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+  column-gap: 200px;
+}
+
+.last-part {
+  margin: 30px;
+  display: flex;
+  justify-content: space-between;
+  color: gold;
+}
